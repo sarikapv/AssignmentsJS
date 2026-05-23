@@ -1,0 +1,19 @@
+# what is program?
+Program is all about the set of instructions to perform task.
+ex:
+1. Launch browser
+2. enter Url "www.google.com"
+3. enter keyword" playwright" in "googlesearch" text box
+4. press enter button and capture the results.
+
+# what is the instruction ?
+Combination of data and respective action.
+ex: 
+1. Launch chromebrowser - chrome is data; Lauch is instruction
+2. enter Url "www.google.com" - url is data 
+3. enter keyword" playwright" in "googlesearch" text box - 
+4. press enter button and capture the results.
+
+# How to store data in javascript?
+Syntax: VariableDeclaration Variable = Data;
+

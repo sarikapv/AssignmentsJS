@@ -1,0 +1,11 @@
+1. Project naming convention (Root folder)
+Naming convention: kebab case(lowercase followed by -)
+
+
+2.Subfolder or module :
+naming convention: kebab case(lowercase followed by -)or camel case
+ex: src/; page-objects/ ; pageMethods(camelcase-start with lowercase follwed by Uppercase)
+
+3. js-ts file 
+naming convention: kebab case
+ex:first-js-programme.js
