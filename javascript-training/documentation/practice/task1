@@ -1,0 +1,59 @@
+// create one variable for each primitive datatype covered
+// assign values
+// print all values
+// print datatype using typeof
+
+// number,string,boolean,undefined,null
+let num = 10; // number
+let location = "bangalore"; // string
+let x=10; 
+let y=20;
+let z =x>y; //boolean
+let age; // undefined
+let salary = 10000;
+console.log(salary);
+salary=null; // null
+
+// Print
+console.log(num);
+console.log(location);
+console.log(z);
+console.log(salary);
+
+// Print typeof
+console.log(typeof num );
+console.log(typeof location);
+console.log(typeof z);
+console.log(typeof age);
+console.log(typeof salary);
+
+//TASK 2//
+// create 3 variables using const , Create 2 variables using let , try reassigning: one let, one const,
+
+// 3 variables using const
+const name = "john";
+const address ="bangalore";
+const company ="ABB";
+
+//2 variable using let 
+let doorno;
+let phonenumber;
+
+// reassign 
+doorno = 123456
+//company = "PICK"; // CONSTANT CANT BE REASSIGNED
+console.log(doorno);
+
+// task 3 - create variables for: product name - price ; availability - print output using template literals(`,${})
+// Product: iPhone ; Price: 80000 ; Available: true
+
+let product = "iPhone";
+let price = 80000;
+let availablity = true;
+
+console.log(
+    `expectedstyle 
+   product: ${product}
+   price: ${price}
+   availability: ${availablity}`);
+
