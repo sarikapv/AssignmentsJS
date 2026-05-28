@@ -47,7 +47,13 @@ if(isEmployed){
 
 //Create common function and then based on below details, print whether user is eligible to get the loan or not
 function checkLoanEligibility(){    
-    if(creditscore >= 650 && income >= 50000 && isEmployed && debtToIncomeRatio<40) {
+    if(creditscore >= 650 ){
+        if(income >= 50000){
+            if(isEmployed){
+             if(debtToIncomeRatio<40) {
         console.log("Eligible");
+    }
+}
+        }
     }
 }
